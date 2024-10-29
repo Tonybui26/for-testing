@@ -29,10 +29,13 @@ export default function NavBar() {
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={"portfolio"}>Portfolio</Link>
+              <Link href={"/portfolio"}>Portfolio</Link>
             </li>
             <li>
               <Link href={"/about"}>About</Link>
+            </li>
+            <li>
+              <Link href={"/my-kitchen"}>My Kitchen</Link>
             </li>
           </ul>
         </div>
