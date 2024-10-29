@@ -4,7 +4,7 @@ const getMenuById = async (menuId) => {
     // const res = await fetch(`${baseUrl}/api/get-menu/${menuId}`, {
     //   cache: "no-store",
     // });
-    const res = await fetch(`${baseUrl}/api/get-menu/${menuId}`);
+    const res = await fetch(`${baseUrl}/api/get-menu-only/${menuId}`);
     if (!res.ok) throw new Error("Failed to fetch menu");
     return await res.json();
   } catch (error) {
