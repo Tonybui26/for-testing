@@ -1,6 +1,6 @@
 import connectMongoDB from "@/libs/mongodb";
 import Menu from "@/models/menu";
-// import User from "@/models/user";
+import User from "@/models/user";
 import MenuItem from "@/models/menuItem";
 import { NextResponse } from "next/server";
 
